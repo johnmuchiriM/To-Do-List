@@ -1,0 +1,58 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background: rgb(214, 90, 2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.Wrapper{
+  background:black;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 0 1px 4px 0 rgb(0,0,0,0,0.5);
+}
+
+.Input-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+
+}
+
+.Input-wrapper input{
+  border-radius: 4%;
+  border:0;
+  background-color:beige;
+  width: 230px;
+  padding: 6px;
+  height:30px;
+  margin: 10px;
+}
+.Input-wrapper button{
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  padding:1px;
+  outline: none;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Rancho', cursive;
+}
+
+
